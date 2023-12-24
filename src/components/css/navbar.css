@@ -1,0 +1,40 @@
+/* NavBar CSS */
+nav.navbar {
+  background-color: #fff;
+  padding: 8px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 9999;
+  transition:  0.32s;
+  font-family: 'Darumadrop One', sans-serif !important;
+  color: #401C65 !important;
+}
+
+nav.navbar.scrolled {
+  padding: 0 0;
+}
+
+nav.navbar .navbar-nav .nav-link.navbar-link {
+  font-weight: 400;
+  color: #401C65 !important;
+  letter-spacing: 0.8px;
+  padding: 8px 25px;
+  font-size: 18px;
+  opacity: 0.6;
+}
+
+nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
+nav.navbar .navbar-nav a.nav-link.navbar-link.active {
+  opacity: 1;
+}
+
+nav.navbar .navbar-toggler {
+  border: none;
+}
+
+nav.navbar .navbar-toggler:active,
+nav.navbar .navbar-toggler:focus {
+    outline: none;
+  box-shadow: none;
+}

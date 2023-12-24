@@ -1,0 +1,92 @@
+/* Custom fonts */
+@font-face {
+  font-family: Darumadrop One;
+  src: url('./assets/font/DarumadropOne-Regular.ttf');
+}
+
+@font-face {
+  font-family: Dokdo;
+  src: url('./assets/font/Dokdo-Regular.ttf');
+}
+
+/* Reset Default CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 25px;
+}
+
+body {
+  overflow-x: hidden;
+  position: relative;
+  font-family: 'Dokdo', sans-serif !important;
+  background-color: #fff !important;
+  color: #131313 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+}
+
+p, a, li, button, ul {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+button {
+  border: 0;
+  background-color: transparent;
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
+}
+
+@media (min-width:1700px) {
+	main .container {
+		max-width: 100%;
+		padding: 0 150px;
+	}
+}
+
+.section-title-main {
+  font-family: 'Darumadrop One', sans-serif !important;
+  font-size: 96px;
+}
+
+.section-title-secondary {
+  font-family: 'Darumadrop One', sans-serif !important;
+  font-size: 112px;
+}
+
+@media (max-width: 992px) {
+  .section-title-main {
+    font-size: 64px;
+  }
+  .section-title-secondary {
+    font-size: 72px;
+  }
+}
+
+/* Default CSS */
+.App {
+  text-align: center;
+}

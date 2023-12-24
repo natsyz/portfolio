@@ -1,0 +1,118 @@
+/* Works CSS */
+.works {
+  position: relative;
+  margin-top: 50px;
+  color: #131313;
+  overflow-x: hidden;
+}
+
+.works .sliding-bg {
+  position: absolute;
+  height: 100px;
+  width: 300%;
+  background-image: url('../../assets/img/projects.png');
+  background-position: top;
+  background-repeat: repeat-x;
+  animation: slide-projects 8s linear infinite;
+}
+
+@keyframes slide-projects { 
+  0% { 
+    transform: translate3d(0, 0, 0); 
+  } 
+
+  100% { 
+    transform: translate3d(-570px, 0, 0); 
+  } 
+} 
+
+.works .container {
+  position: relative;
+}
+
+.works-decoration img {
+  position: absolute;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-359deg);
+  }
+}
+
+.works-title {
+  text-align: left;
+}
+
+.works-title .section-title-main {
+  color: #70F0C5;
+}
+
+.works-title p span {
+  font-size: 24px;
+  color: #ffd642;
+}
+
+.works-decks {
+  padding: 12px;
+}
+
+.works-decks img {
+  transition: all 0.3s ease-in-out 0s;
+  margin-bottom: 24px;
+}
+
+.works-decks img:hover {
+  transform: scale(0.95);
+  cursor: default;
+}
+
+.works-deck-text {
+  text-align: left;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.works-deck-text:hover {
+  text-decoration: underline;
+}
+
+.works-deck-text h2 {
+  -webkit-text-stroke: 1px #EA495F;
+  font-size: 250px;
+  font-family: 'Darumadrop One', sans-serif !important;
+  color: transparent !important;
+}
+
+.works-deck-text p {
+  font-size: 20px;
+}
+
+.works-deck-text p span {
+  color: #af1327;
+}
+
+p.deck-title {
+  font-size: 32px;
+}
+
+p.deck-desc {
+  font-size: 22px;
+  text-align: left;
+  color: #303030;
+}
+
+p.deck-desc a {
+  color: #af1327;
+}
+
+@media (max-width: 992px) {
+  .works-title {
+    padding-left: 24px;
+  }
+  .works-title p span {
+    font-size: 22px;
+  }
+}

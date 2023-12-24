@@ -1,0 +1,60 @@
+/* Banner CSS */
+.banner {
+  min-height: 100vh;
+  position: relative;
+  margin-top: 0;
+  padding: 50px 0;
+  background-image: url('../../assets/img/banner.png');
+  background-size: contain;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: repeat-x;
+}
+
+.banner-title {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.banner h1 {
+  -webkit-text-stroke: 3px #fff;
+  font-size: 96px;
+  font-family: 'Darumadrop One', sans-serif !important;
+  color: #401C65 !important;
+}
+
+span.social-span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-icons {
+  display: inline-block;
+}
+
+.social-icons a {
+  width: 36px;
+  height: 36px;
+  display: inline-flex;
+  margin: 0 12px;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-icons a img {
+  opacity: 0.9;
+  transition: 0.1s ease-in-out;
+}
+
+.social-icons a:hover img {
+  opacity: 1;
+}
+
+@media (max-width: 992px) {
+  .banner h1 {
+    -webkit-text-stroke: 1px #fff;
+  }
+}

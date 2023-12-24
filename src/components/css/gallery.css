@@ -1,0 +1,105 @@
+/* Arts CSS */
+.arts {
+  position: relative;
+  overflow-x: hidden;
+  margin-top: 140px;
+  margin-bottom: 100px;
+  color: #131313;
+}
+
+.arts .sliding-bg {
+  position: absolute;
+  height: 100px;
+  width: 300%;
+  background-image: url('../../assets/img/gallery.png');
+  background-position: top;
+  background-repeat: repeat-x;
+  animation: slide-gallery 8s linear infinite;
+}
+
+@keyframes slide-gallery { 
+  0% { 
+    transform: translate3d(0, 0, 0); 
+  } 
+
+  100% { 
+    transform: translate3d(-487px, 0, 0); 
+  } 
+} 
+
+.arts .container {
+  position: relative;
+}
+
+.arts-title {
+  text-align: left;
+}
+
+.arts-title p {
+  font-size: 24px;
+  color: #9FB462;
+}
+
+.arts-title p span {
+  color: #ffd642;
+}
+
+.arts-title .section-title-main {
+  background: linear-gradient(180deg, #ffd642 0%, #db4d58 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+}
+
+.figure {
+  background-color: #fff;
+  position: relative;
+  padding: 12px;
+}
+
+.image-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity .2s;
+  padding: 12px;
+}
+
+.figure:hover img.image-hover {
+  opacity: 1;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+p.arts-desc {
+  padding: 36px 0;
+  color: #B8736C;
+  font-size: 20px;
+}
+
+p.arts-desc span, p.arts-desc a {
+  color: #3C9F9C;
+}
+
+@media (max-width: 992px) {
+  .arts {
+    margin-bottom: 0;
+  }
+
+  .figure {
+    padding: 0px;
+  }
+  
+  .image-hover {
+    padding: 0px;
+  }
+  
+  .arts-title {
+    padding-left: 24px;
+  }
+  
+  .arts-title p {
+    font-size: 22px;
+  }
+}

@@ -1,0 +1,56 @@
+/* Footer CSS */
+.footer {
+  position: relative;
+  overflow-x: hidden;
+  min-height: 100vh;
+  background-image: url('../../assets/img/sea.png');
+  background-size: 700px;
+  background-position: bottom;
+  background-repeat: repeat-x;
+  color: #FFF;
+}
+  
+.footer .shadow-box {
+  width: 100%;
+  height: 250px;
+  flex-shrink: 0;
+  position: absolute;
+  top: 0;
+  background: linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+}
+
+.footer-content {
+  width: 100%;
+  padding: 24px 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.footer-content a {
+  color: #FFF;
+}
+
+.footer-content a.main-link {
+  font-size: 32px;
+}
+
+.footer .sliding-bg {
+  height: 100px;
+  width: 300%;
+  margin: 48px 0;
+  background-image: url('../../assets/img/contact.png');
+  background-position: bottom;
+  background-repeat: repeat-x;
+  animation: slide-contact 8s linear infinite;
+}
+
+@keyframes slide-contact { 
+  0% { 
+    transform: translate3d(0, 0, 0); 
+  } 
+
+  100% { 
+    transform: translate3d(-522px, 0, 0); 
+  } 
+}

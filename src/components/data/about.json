@@ -1,0 +1,76 @@
+[
+	{
+		"id": 1,
+		"section": "Education",
+		"data": [
+			{
+				"id": 1,
+				"title" : "University of Indonesia",
+				"subtitle"  : "Bachelor of Computer Science",
+				"info"  : "August 2019 - Agust 2023",
+				"desc"  : "GPA 3.75/4.00. Cum Laude"
+			}
+		]
+	},
+	{
+		"id": 2,
+		"section": "Experience",
+		"data": [
+			{
+				"id": 1,
+				"title" : "Data Science Intern",
+				"subtitle"  : "Telkomsel",
+				"info"  : "August 2022 - December 2022",
+				"desc"  : "Trained BERTopic topic modelling model as natural language processing (NLP) technique. Performed data processing upon 30.000 open-ended-answers data to provide model input utilizing Python. Defined data pipeline and integrated trained model with MLFlow for better model management."
+			},
+			{
+				"id": 2,
+				"title" : "Teaching Assistant",
+				"subtitle"  : "Fasilkom UI",
+				"info"  : "January 2022 - June 2023",
+				"desc"  : "Courses: Human Computer Interaction, Computer Network, Language Theory and Automata. Compiled and assisted with grading assignments and exam. Monitored and provided feedback of students progress."
+			},
+			{
+				"id": 3,
+				"title" : "Public Relation",
+				"subtitle"  : "RISTEK Fasilkom UI",
+				"info"  : "April 2021 - February 2022",
+				"desc"  : "Designed analitics and informational content posters shared to social media. Acted as a liason within the team to facilitate communication with clients in development of organizational projects."
+			},
+			{
+				"id": 4,
+				"title" : "Visual Designer",
+				"subtitle"  : "Compfest 12",
+				"info"  : "February 2020 - November 2020",
+				"desc"  : "Utilized Figma to design posters and regular content across social networks."
+			}
+		]
+	},
+	{
+		"id": 3,
+		"section": "Technical",
+		"data": [
+			{
+				"id": 1,
+				"title" : "Code",
+				"subtitle"  : "",
+				"info"  : "",
+				"desc"  : "Language (Python, Java), Web (HTML/CSS/Javascript, Django, FastAPI, Spring, ReactJS), Tools/Platform (Visual Studio Code, Git, Docker, Postman, Google Cloud Platform), OS (Windows, Linux)"
+			},
+			{
+				"id": 2,
+				"title" : "Data",
+				"subtitle"  : "",
+				"info"  : "",
+				"desc"  : "Database (PostgreSQL, MongoDB, InfluxDB, Firebase), Framework/Library/Tools (Spark, MLFlow, Kedro, Pandas, Jupyter, Tableau, DBeaver)"
+			},
+			{
+				"id": 3,
+				"title" : "Creative/Design ",
+				"subtitle"  : "",
+				"info"  : "",
+				"desc"  : "Media (Traditional sketch, Digital illustration), Tools/Platform (Figma, Canva, Adobe Illustrator, Vegas Pro)"
+			}
+		]
+	}
+]

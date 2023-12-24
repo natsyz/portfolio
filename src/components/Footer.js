@@ -24,7 +24,7 @@ export const Footer = () => {
           <Row>
             <Fade bottom>
               <Col>
-                <p>Designed and <a href="https://github.com/natsyz/" target="_blank" rel="noreferrer">developed</a> with 💖🐦 by Natasya Zahra. <br/>2023</p>
+                <p>Designed and <a href="https://github.com/natsyz/portfolio" target="_blank" rel="noreferrer">developed</a> with 💖🐦 by Natasya Zahra. <br/>2023</p>
               </Col>
             </Fade>
           </Row>

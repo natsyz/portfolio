@@ -90,12 +90,17 @@
   font-size: 20px;
 }
 
+.works-deck-text a {
+  text-decoration: none;
+}
+
 .works-deck-text p span {
   color: #af1327;
 }
 
 p.deck-title {
   font-size: 32px;
+  color: #131313;
 }
 
 p.deck-desc {

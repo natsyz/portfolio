@@ -1,9 +1,9 @@
-import { Col, Container, Row } from "react-bootstrap"
-import starImg from "../assets/img/pink-star.png"
-import smartCityImg from "../assets/img/smart-city.png"
-import mapEarthquakeImg from "../assets/img/map-earthquake.png"
-import { Fade } from "react-reveal"
-import "./css/projects.css"
+import "./css/projects.css";
+import { Col, Container, Row } from "react-bootstrap";
+import { Fade } from "react-reveal";
+import starImg from "../assets/img/pink-star.png";
+import smartCityImg from "../assets/img/smart-city.png";
+import mapEarthquakeImg from "../assets/img/map-earthquake.png";
 
 export const Projects = () => {
   return (
@@ -32,9 +32,11 @@ export const Projects = () => {
                 <img src={smartCityImg} alt="Smart City Illustration"></img>
               </Col>
               <Col xs={{span: 10, order: 1}} lg={{span: 3, order:2}} className="works-deck-text">
-                <h2>+1</h2>
-                <p><span>UI Design, Microservices</span></p>
-                <p className="deck-title">Mahoni Smart City App</p>
+                <a href="/portfolio/mahoni-smart-city">
+                  <h2>+1</h2>
+                  <p><span>UI Design, Microservices</span></p>
+                  <p className="deck-title">Mahoni Smart City App</p>
+                </a>
               </Col>
             </Row>
             <Row className="justify-content-center">

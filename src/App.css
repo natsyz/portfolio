@@ -9,6 +9,34 @@
   src: url('./assets/font/Dokdo-Regular.ttf');
 }
 
+@font-face {
+  font-family: DM Sans;
+  src: url('./assets/font/DMSans-Regular.ttf');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: DM Sans;
+  src: url('./assets/font/DMSans-Bold.ttf');
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: DM Sans;
+  src: url('./assets/font/DMSans-Italic.ttf');
+  font-style: italic;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: DM Sans;
+  src: url('./assets/font/DMSans-BoldItalic.ttf');
+  font-style: italic;
+  font-weight: bold;
+}
+
 /* Reset Default CSS */
 * {
   margin: 0;
@@ -65,25 +93,6 @@ input:focus, textarea:focus, select:focus {
 		max-width: 100%;
 		padding: 0 150px;
 	}
-}
-
-.section-title-main {
-  font-family: 'Darumadrop One', sans-serif !important;
-  font-size: 96px;
-}
-
-.section-title-secondary {
-  font-family: 'Darumadrop One', sans-serif !important;
-  font-size: 112px;
-}
-
-@media (max-width: 992px) {
-  .section-title-main {
-    font-size: 64px;
-  }
-  .section-title-secondary {
-    font-size: 72px;
-  }
 }
 
 /* Default CSS */

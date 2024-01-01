@@ -1,12 +1,11 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { NavBar } from "./components/NavBar";
-import { Banner } from "./components/Banner";
-import { About } from "./components/About";
-import { Projects } from "./components/Projects";
-import { Gallery } from "./components/Gallery";
 import { Footer } from "./components/Footer";
+import { Home } from "./pages/Home";
+import { Project } from "./pages/Project";
 import { useEffect, useState } from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -23,12 +22,14 @@ function App() {
 
   return (
     <div className="App">
-      <NavBar/>
-      <Banner/>
-      <About/>
-      <Projects/>
-      <Gallery/>
-      <Footer/>
+      <BrowserRouter basename="/portfolio">
+        <NavBar/>
+        <Routes>
+          <Route path="/" element={<Home/>}/>
+          <Route path="mahoni-smart-city" element={<Project/>}/>
+        </Routes>
+        <Footer/>
+      </BrowserRouter>
     </div>
   );
 }

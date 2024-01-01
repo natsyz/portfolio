@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.33a56c19.css",
-    "main.js": "/portfolio/static/js/main.50fd3b00.js",
+    "main.css": "/portfolio/static/css/main.22b8a0a2.css",
+    "main.js": "/portfolio/static/js/main.32ef80ab.js",
     "static/js/787.7da95b79.chunk.js": "/portfolio/static/js/787.7da95b79.chunk.js",
     "static/media/smart-city.png": "/portfolio/static/media/smart-city.b31e4c45dcae899f8016.png",
     "static/media/map-earthquake.png": "/portfolio/static/media/map-earthquake.4a8dca9b6a3f42c7e5ba.png",
+    "static/media/mahoni-prototype.png": "/portfolio/static/media/mahoni-prototype.1efdbeefa36626aaee50.png",
     "static/media/Dokdo-Regular.ttf": "/portfolio/static/media/Dokdo-Regular.cb80e5f9082de45c829e.ttf",
     "static/media/headshot.png": "/portfolio/static/media/headshot.a5ed2ad82de294db1c6d.png",
     "static/media/sea.png": "/portfolio/static/media/sea.cc8a1f1f23003feb7782.png",
@@ -16,6 +17,8 @@
     "static/media/figure-rb.gif": "/portfolio/static/media/figure-rb.892ff3de0187d767ee57.gif",
     "static/media/natasya_zahra-master_resume.pdf": "/portfolio/static/media/natasya_zahra-master_resume.dede968872106bf4e7c3.pdf",
     "static/media/figure-mr.jpeg": "/portfolio/static/media/figure-mr.dcdfeae2fc62084e73df.jpeg",
+    "static/media/mahoni-logo.png": "/portfolio/static/media/mahoni-logo.3b49aec9c0c46980666b.png",
+    "static/media/mahoni-architecture.png": "/portfolio/static/media/mahoni-architecture.4a49e09ffc6a02cfeff3.png",
     "static/media/figure-rf.jpeg": "/portfolio/static/media/figure-rf.d7f03fffa4400b433360.jpeg",
     "static/media/figure-na.jpeg": "/portfolio/static/media/figure-na.e5f93c844e42dbedd2e9.jpeg",
     "static/media/figure-ds.jpeg": "/portfolio/static/media/figure-ds.f728e096df00858ce10a.jpeg",
@@ -23,7 +26,12 @@
     "static/media/figure-rb-collage.png": "/portfolio/static/media/figure-rb-collage.a71970f671ce01c3a397.png",
     "static/media/figure-trs.gif": "/portfolio/static/media/figure-trs.13b60c980baff7d7ef0e.gif",
     "static/media/figure-fd.gif": "/portfolio/static/media/figure-fd.14e7c4d0b6a0fd75f70e.gif",
+    "static/media/mahoni-kano.png": "/portfolio/static/media/mahoni-kano.9a4a76fd746bbcaa2500.png",
+    "static/media/DMSans-Italic.ttf": "/portfolio/static/media/DMSans-Italic.da82e82ee3134b9d3f13.ttf",
+    "static/media/DMSans-BoldItalic.ttf": "/portfolio/static/media/DMSans-BoldItalic.a7e5bb6e687f75fd75d1.ttf",
     "static/media/banner.png": "/portfolio/static/media/banner.fd206f48c50d68a9ea63.png",
+    "static/media/DMSans-Regular.ttf": "/portfolio/static/media/DMSans-Regular.5796ba67a2ae308b784c.ttf",
+    "static/media/DMSans-Bold.ttf": "/portfolio/static/media/DMSans-Bold.49af0e9e85f659857710.ttf",
     "static/media/figure-fd-collage.png": "/portfolio/static/media/figure-fd-collage.4b4079e8e40271fa1778.png",
     "static/media/figure-cv.jpg": "/portfolio/static/media/figure-cv.aaa05ede1f9039b22b23.jpg",
     "static/media/figure-trg.gif": "/portfolio/static/media/figure-trg.9d025ede1e2db799d71d.gif",
@@ -35,12 +43,12 @@
     "static/media/social-email.svg": "/portfolio/static/media/social-email.12ba953f235b92701cd8639ed2cebfa6.svg",
     "static/media/social-linkedin.svg": "/portfolio/static/media/social-linkedin.f698e28ec94489c7b2c37072d09ee790.svg",
     "index.html": "/portfolio/index.html",
-    "main.33a56c19.css.map": "/portfolio/static/css/main.33a56c19.css.map",
-    "main.50fd3b00.js.map": "/portfolio/static/js/main.50fd3b00.js.map",
+    "main.22b8a0a2.css.map": "/portfolio/static/css/main.22b8a0a2.css.map",
+    "main.32ef80ab.js.map": "/portfolio/static/js/main.32ef80ab.js.map",
     "787.7da95b79.chunk.js.map": "/portfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.33a56c19.css",
-    "static/js/main.50fd3b00.js"
+    "static/css/main.22b8a0a2.css",
+    "static/js/main.32ef80ab.js"
   ]
 }

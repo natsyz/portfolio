@@ -1,13 +1,24 @@
 import "./css/project.css";
 import { Col, Container, Row } from "react-bootstrap";
 import { NavHashLink } from "react-router-hash-link";
+import { Fade } from "react-reveal";
+import { useEffect } from "react";
 import prototypeImg from "../assets/img/mahoni-prototype.png";
 import mahoniKanoImg from "../assets/img/mahoni-kano.png";
 import mahoniLogoImg from "../assets/img/mahoni-logo.png";
 import mahoniArchitectureImg from "../assets/img/mahoni-architecture.png";
-import { Fade } from "react-reveal";
 
 export const Project = () => {
+
+  const scrollSection = (value) => {
+    var elmntToView = document.getElementById(value);
+    elmntToView.scrollIntoView(); 
+  }
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <section className="project" id="project">
       <div className="header">
@@ -37,19 +48,19 @@ export const Project = () => {
           <Container>
             <Row className="align-items-center justify-content-center">
               <Col xs={11} md="auto">
-                <p><a href="#overview">Overview</a></p>
+                <p><span onClick={() => scrollSection("overview")}>Overview</span></p>
               </Col>
               <Col xs={11} md="auto">
-                <p><a href="#research">Research</a></p>
+                <p><span onClick={() => scrollSection("research")}>Research</span></p>
               </Col>
               <Col xs={11} md="auto">
-                <p><a href="#brandidentity">Brand & Identity</a></p>
+                <p><span onClick={() => scrollSection("brandidentity")}>Brand & Identity</span></p>
               </Col>
               <Col xs={11} md="auto">
-                <p><a href="#result">Result</a></p>
+                <p><span onClick={() => scrollSection("result")}>Result</span></p>
               </Col>
               <Col xs={11} md="auto">
-                <p><a href="#microservice">Microservice</a></p>
+                <p><span onClick={() => scrollSection("microservice")}>Microservice</span></p>
               </Col>
             </Row>
           </Container>

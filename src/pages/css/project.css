@@ -63,6 +63,14 @@
   text-align: left;
 }
 
+.project-nav p span {
+  text-decoration: underline !important;
+}
+
+.project-nav p span:hover {
+  text-decoration: none !important;
+}
+
 .project a {
   color: #131313;
 }

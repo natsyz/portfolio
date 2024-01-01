@@ -32,7 +32,7 @@ export const Projects = () => {
                 <img src={smartCityImg} alt="Smart City Illustration"></img>
               </Col>
               <Col xs={{span: 10, order: 1}} lg={{span: 3, order:2}} className="works-deck-text">
-                <a href="/portfolio/mahoni-smart-city">
+                <a href="/portfolio/#/mahoni-smart-city">
                   <h2>+1</h2>
                   <p><span>UI Design, Microservices</span></p>
                   <p className="deck-title">Mahoni Smart City App</p>
